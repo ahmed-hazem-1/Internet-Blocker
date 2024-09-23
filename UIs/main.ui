@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #F0F0F0; /* Light gray background */
+    color: #000000; /* Black text */
+}
+
+QPushButton {
+    background-color: #0078D7; /* Windows blue */
+    color: #FFFFFF; /* White text */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QPushButton:hover {
+    background-color: #0056A3; /* Darker blue on hover */
+}
+
+QLineEdit {
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #B0B0B0; /* Gray border */
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #0078D7; /* Blue border when focused */
+}
+
+QLabel {
+    font-weight: bold;
+}
+
+QComboBox {
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #B0B0B0; /* Gray border */
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QComboBox:editable {
+    background: #FFFFFF; /* White when editable */
+}
+
+QComboBox:!editable, QComboBox::drop-down:editable {
+    background: #E7E7E7; /* Light gray when not editable */
+}
+
+QComboBox::drop-down {
+    width: 20px; /* Width of the dropdown arrow */
+}
+
+QCheckBox {
+    spacing: 5px; /* Space between checkbox and label */
+}
+
+QRadioButton {
+    spacing: 5px; /* Space between radio button and label */
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="ApplyChanges">
+      <property name="text">
+       <string>Apply Changes</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="Defaults">
+      <property name="text">
+       <string>Return to Defualts</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QListWidget" name="listWidget">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>1677706</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
