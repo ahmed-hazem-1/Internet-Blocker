@@ -1,4 +1,4 @@
-# Project Title: Admin Controller
+# Project Title: Internet-Blocker
 
 ## Description
 This project is a Python-based application that provides functionalities to manage installed applications on a Windows system. It uses PyQt5 for the GUI and interacts with the Windows Registry and Firewall to perform its operations.
