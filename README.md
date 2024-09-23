@@ -1,4 +1,4 @@
-# Project Title: Internet-Blocker 🚫🌐
+# Internet-Blocker 🚫🌐
 
 !Internet Blocker Logo
 ## Description
